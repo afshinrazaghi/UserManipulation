@@ -4,9 +4,9 @@ GO
 CREATE DATABASE [UserManipulation]
  CONTAINMENT = NONE
  ON  PRIMARY 
-( NAME = N'UserManipulation', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\UserManipulation.mdf' , SIZE = 10240KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB )
+( NAME = N'UserManipulation', FILENAME = N'C:\DATA\UserManipulation.mdf' , SIZE = 10240KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB )
  LOG ON 
-( NAME = N'UserManipulation_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\UserManipulation_log.ldf' , SIZE = 5120KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
+( NAME = N'UserManipulation_log', FILENAME = N'C:\DATA\UserManipulation_log.ldf' , SIZE = 5120KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
  WITH CATALOG_COLLATION = DATABASE_DEFAULT, LEDGER = OFF
 GO
 ALTER DATABASE [UserManipulation] SET COMPATIBILITY_LEVEL = 160
